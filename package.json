@@ -15,9 +15,11 @@
     "@mui/icons-material": "^7.3.5",
     "@mui/material": "^7.3.5",
     "@mui/x-charts": "^8.19.0",
+    "@reduxjs/toolkit": "^2.11.0",
     "@toolpad/core": "^0.16.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.9.6"
   },
   "devDependencies": {
