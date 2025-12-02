@@ -15,7 +15,15 @@ function name() {
       ) : (
         data.data.map((users) => {
           return (
-            <div key={users.id}>
+            <div
+              key={users.id}
+              style={{
+                border: "1px solid #ccc",
+                borderRadius: "6px",
+                padding: "6px",
+                marginBottom: "10px",
+              }}
+            >
               <p>{users.name}</p>
               <p>{users.address.zipcode}</p>
             </div>
