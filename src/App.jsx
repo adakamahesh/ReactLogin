@@ -7,6 +7,7 @@ import Home from "./pages/home";
 import Logical from "./pages/LogicalOperators/logical";
 import Increment from "./pages/redux/increment";
 import User from "./pages/redux/user";
+import Name from "./pages/redux/name";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/logical" element={<Logical />} />
       <Route path="/increment" element={<Increment />} />
       <Route path="/users" element={<User />} />
+      <Route path="/names" element={<Name />} />
     </Routes>
   );
 }
