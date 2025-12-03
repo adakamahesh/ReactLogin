@@ -8,6 +8,7 @@ import Logical from "./pages/LogicalOperators/logical";
 import Increment from "./pages/redux/increment";
 import User from "./pages/redux/user";
 import Name from "./pages/redux/name";
+import Users from "./pages/RTK/names";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <Route path="/usestate" element={<UseState />} />
       <Route path="/logical" element={<Logical />} />
       <Route path="/increment" element={<Increment />} />
-      <Route path="/users" element={<User />} />
+      <Route path="/user" element={<User />} />
       <Route path="/names" element={<Name />} />
+      <Route path="/users" element={<Users />} />
     </Routes>
   );
 }
