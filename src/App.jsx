@@ -8,7 +8,11 @@ import Logical from "./pages/LogicalOperators/logical";
 import Increment from "./pages/redux/increment";
 import User from "./pages/redux/user";
 import Name from "./pages/redux/name";
+import UseEffect from "./pages/useEffect/useeffect";
 import Users from "./pages/RTK/names";
+import UseRef from "./pages/useRef/useRef";
+import UseCallback from "./pages/useCallback/useCallback";
+import Usememo from "./pages/useMemo/useMemo";
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
       <Route path="/user" element={<User />} />
       <Route path="/names" element={<Name />} />
       <Route path="/users" element={<Users />} />
+      <Route path="/useeffect" element={<UseEffect />} />
+      <Route path="/useref" element={<UseRef />} />
+      <Route path="/usecallback" element={<UseCallback />} />
+      <Route path="/usememo" element={<Usememo />} />
     </Routes>
   );
 }

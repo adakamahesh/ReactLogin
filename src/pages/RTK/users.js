@@ -15,9 +15,12 @@ export const usersapi = createApi({
         }),
         getPosts: builder.query({
             query: () => 'posts'
+        }),
+        getTodos: builder.query({
+            query:()=>'todos'
         })
     })
 })
 
-export const { useGetUsersQuery, useGetPostsQuery } = usersapi;
+export const { useGetUsersQuery, useGetPostsQuery, useGetTodosQuery } = usersapi;
 // Auto-generated React hooks for API calls
