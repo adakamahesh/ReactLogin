@@ -13,6 +13,7 @@ import Users from "./pages/RTK/names";
 import UseRef from "./pages/useRef/useRef";
 import UseCallback from "./pages/useCallback/useCallback";
 import Usememo from "./pages/useMemo/useMemo";
+import Debounce from "./pages/debounce/debounce";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path="/useref" element={<UseRef />} />
       <Route path="/usecallback" element={<UseCallback />} />
       <Route path="/usememo" element={<Usememo />} />
+      <Route path="/debounce" element={<Debounce />} />
     </Routes>
   );
 }
